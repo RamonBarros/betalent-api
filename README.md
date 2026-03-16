@@ -1,0 +1,2 @@
+A aplicação utiliza a arquitetura MVC do Laravel com uma camada adicional de Services para isolamento da regra de negócio.
+Para integração com múltiplos gateways de pagamento foram utilizados os padrões Strategy e Adapter, permitindo adicionar novos gateways de forma modular sem alterar a lógica principal da aplicação.
